@@ -55,6 +55,7 @@ public class CarBuildDirector {
         		.paintInColor(Color.BLACK)
         		.mountTyresType(TyresType.SPORT)
         		.build();
+        System.out.println("Kabrio niedorobione");
         System.out.println(niedorobiony);
     }
 }

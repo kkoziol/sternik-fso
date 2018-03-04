@@ -52,7 +52,6 @@ public class ChineseFactory {
         for (int i = 1; i < 5; i++)
             System.out.println(factory.produceNextItem());
 
-        /*
         System.out.println("----------++++-------------");
         long start = System.nanoTime();
         CarBuilder kabrioBuilder = new KabrioBuilder();
@@ -75,6 +74,6 @@ public class ChineseFactory {
         
         for (int i = 0; i < produkcja.length; i++) {
             System.out.println(produkcja[i]);
-        }*/
+        }
     }
 }
