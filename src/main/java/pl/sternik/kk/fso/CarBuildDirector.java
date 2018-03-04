@@ -42,13 +42,13 @@ public class CarBuildDirector {
     }
     public static void main(final String[] arguments) {
         CarBuilder kabrioBuilder = new KabrioBuilder();
-//        CarBuilder kombiBuilder = new KombiBuilder();
-//        CarBuildDirector carBuildDirector = new CarBuildDirector(kabrioBuilder);
-//        System.out.println(carBuildDirector.constructSportVersion());
+        CarBuilder kombiBuilder = new KombiBuilder();
+        CarBuildDirector carBuildDirector = new CarBuildDirector(kabrioBuilder);
+        System.out.println(carBuildDirector.constructSportVersion());
         
-//        System.out.println("Przestawiam fabryke na Kombi");
-//        carBuildDirector.setBuilder(kombiBuilder);
-//        System.out.println(carBuildDirector.constructStandardVersion());
+        System.out.println("Przestawiam fabryke na Kombi");
+        carBuildDirector.setBuilder(kombiBuilder);
+        System.out.println(carBuildDirector.constructStandardVersion());
         
         Car niedorobiony = kabrioBuilder
                 .startNewCar()
